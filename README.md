@@ -33,25 +33,29 @@ A Python-based chatbot that uses Retrieval-Augmented Generation (RAG) to summari
 ### Installation & Setup
 
 1.  **Clone the repository:**
+
     ```bash
     git clone <your-repository-url>
     cd reddit-api
     ```
 
 2.  **Create and activate a virtual environment:**
+
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
     ```
 
 3.  **Install dependencies:**
-    *(A `requirements.txt` file should be created for this project)*
+    _(A `requirements.txt` file should be created for this project)_
+
     ```bash
     pip install -r requirements.txt
     ```
 
 4.  **Configure environment variables:**
     Create a `.env` file in the root directory. **Do not share this file.**
+
     ```env
     # Reddit API Credentials
     CLIENT_ID="your_client_id"
@@ -110,7 +114,3 @@ The application will launch an interactive prompt. Ask your questions, and type 
 
 나 >
 ```
-
-## 📄 License
-
-This project is licensed under the MIT License.
