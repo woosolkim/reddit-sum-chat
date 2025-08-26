@@ -5,8 +5,8 @@ reddit:
   max_comments_per_post: 20
 
 chromadb:
-  path: "./chroma_db_v2"
-  collection_name: "reddit_kpop_rag"
+  path: "./chroma_db"
+  collection_name: "reddit_rag"
 
 models:
   embedding: "jhgan/ko-sroberta-multitask"
