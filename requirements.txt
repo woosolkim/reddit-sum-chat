@@ -1,0 +1,8 @@
+praw
+PyYAML
+python-dotenv
+tqdm
+langchain
+sentence-transformers
+chromadb
+google-generativeai

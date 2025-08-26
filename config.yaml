@@ -1,0 +1,17 @@
+reddit:
+  default_subreddit: "korea"
+  default_limit: 10
+  time_filter: "week"
+  max_comments_per_post: 20
+
+chromadb:
+  path: "./chroma_db_v2"
+  collection_name: "reddit_kpop_rag"
+
+models:
+  embedding: "jhgan/ko-sroberta-multitask"
+  generative: "gemini-2.5-flash"
+
+text_splitter:
+  chunk_size: 1000
+  chunk_overlap: 100
